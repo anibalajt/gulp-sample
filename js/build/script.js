@@ -1,1 +1,1 @@
-var restar=function(r,n){return r-n},suma=function(r,n){return r+n};
+var multiplica=function(n,r){return n*r},restar=function(n,r){return n-r},suma=function(n,r){return n+r};

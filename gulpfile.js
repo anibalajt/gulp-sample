@@ -11,6 +11,7 @@ uglify = require('gulp-uglify');
 gulp.task('server', ['imagenes', 'css', 'js'], function(){
 
 });
+gulp.watch('js/source/*.js', ['server']);
 
 gulp.task('imagenes', function () {
 
